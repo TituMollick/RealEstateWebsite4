@@ -1,0 +1,1116 @@
+/* 
+  Titu Mollick
+  https://titumallick.com/  
+  Real-Estate Website 
+*/
+
+*{
+  margin: 0;
+  padding: 0;
+}
+/* Start Header Part CSS */
+#header{
+  width: 100%;
+  height: 800px;
+  margin: 0 auto;
+  /* background: #F2F6F7; */
+}
+/* Start Top Header Part CSS */
+#header .top_head{
+  height: 40px;
+  background: #0B2C3D;
+  padding: 0 70px;
+  display: flex;
+}
+#header .top_head a{
+  text-decoration: none;
+  color: #FFFFF5;
+  font-size: 16px;
+  padding-top: 8px;
+}
+#header .top_head p{
+  color: #FFFFF5;
+  font-size: 16px;
+  padding: 8px 0 0 50px;
+}
+#header .top_head .top_icon{
+  color: #FFFFF5;
+  padding-left: 500px;
+}
+#header .top_head .top_icon{
+  padding: 8px 0 0 585px;
+}
+#header .top_head .top_icon img{
+  height: 25px;
+  width: 120px;
+}
+#header .top_head button{
+  margin: 0 0 0 20px;
+  background: #FF5A3C;
+  border: none;
+  padding: 10px 20px;
+}
+/* Start Main Header Part CSS */
+#header .main_header{
+  height: 100px;
+  background: #FFF;
+  padding: 0 70px;
+  display: flex;
+  align-items: center;
+}
+#header .main_header .logo img{
+  height: 60px;
+  width: 200px;
+}
+#header .main_header .menu{
+  padding: 0 142px;
+  align-items: center;
+}
+#header .main_header .menu a{
+  padding: 0 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: #0A2C3D;
+}
+#header .main_header .main_icon{
+  padding: 0 0 0 50px;
+}
+#header .main_header .main_icon img{
+  height: 69px;
+  width: 188px;
+}
+/* Start Header Hero Part CSS */
+#header .hero_part{
+  width: 100%;
+  height: 550px;
+  background: #F2F6F7;
+  display: flex;
+  align-items: center;
+}
+#header .hero_part .hero_con{
+  width: 50%;
+}
+#header .hero_part .hero_con img{
+  height: 20px; width: 25px;
+  padding-left: 70px;
+}
+#header .hero_part .hero_con h6{
+  padding-left: 105px; margin-top: -23px;
+  font-size: 17px;
+  color: #0A2C3D;
+}
+#header .hero_part .hero_con h1{
+  font-size: 55px;
+  color: #071C1F;
+  padding: 10px 0 10px 70px;
+}
+#header .hero_part .hero_con p{
+  color: #5D737D;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.5;
+  border-left: 1px solid #071C1F;
+  margin: 10px 0 10px 70px;
+  padding-left: 15px;
+}
+#header .hero_part .hero_con .hero_btn{
+  padding-left: 70px;
+  margin-top: 30px;
+  display: flex;
+}
+#header .hero_part .hero_con .hero_btn button{
+  padding: 18px 40px;
+  background: #FF5A3C;
+  border: none;
+}
+#header .hero_part .hero_con .hero_btn button a{
+  text-decoration: none;
+  font-size: 18px;
+  color: #FFFFF5;
+}
+#header .hero_part .hero_con .hero_btn .video{
+  padding-left: 12px;
+}
+#header .hero_part .hero_con .hero_btn .video img{
+  padding-left: 0px;
+  border-radius: 30px;
+  height: 60px; width: 60px;
+  box-shadow: 1px 2px 10px 2px #888888;
+}
+#header .hero_part .slider{
+  margin-top: 472px;
+  margin-left: -610px;}
+/* End Header Part CSS */
+/* Start Property Box Part CSS */
+#box{
+  width: 100%;
+  height: 180px; 
+}
+#box .box_button{
+  width: 90%;
+  height: 120px;
+  margin: 0 auto;
+  border: 1px solid #EBEBEB;
+  box-shadow: 0px 2px 10px -1px rgba(202, 202, 202, 0.924);
+  display: flex; 
+  justify-content: left;
+  align-items: center;
+}
+#box .box_button .box_btn{
+  margin: 0 20px;
+}
+#box .box_button .box_btn button{
+  height: 55px;
+  width: 240px;
+  text-align: left;
+  background: #FFF;
+  border: 1px solid #E8E8E8;
+}
+#box .box_button .main_btn_01 button{
+  width: 255px;
+}
+#box .box_button .box_btn button a{
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 600;
+  color: #000512;
+  padding-left: 15px;
+}
+#box .box_button .box_btn button a span{
+  color: #979797;
+  padding-left: 90px;
+}
+#box .box_button .main_btn_active{
+  margin-left: 75px;
+}
+#box .box_button .main_btn_active button{
+  width: 170px; background: #FF5A3C;
+  border: none;
+  text-align: center;
+}
+#box .box_button .main_btn_active button a{
+  font-size: 17px;
+  font-weight: 300;
+  color: #FFF;
+  padding-left: 0;
+}
+/* Hover Contante */
+#box .box_button .box_btn button:hover{
+  background: #FF5A3C;
+  border: none; transition: 0.3s;
+}
+#box .box_button .main_btn_active button:hover{
+  background: #FFF; transition: 0.5s;
+  border: 1px solid #E8E8E8;
+}
+#box .box_button .main_btn_active button:hover a{
+  color: #000512; transition: 0.3s;
+}
+/* End Property Box Part CSS */
+/* Start Marketplace Part CSS */
+#market{
+  width: 90%;
+  height: 700px;
+  margin: 0 auto;
+  display: flex;
+}
+#market .market_img{
+  width: 45%;
+  height: 600px;
+  position: relative;
+  z-index: 1;
+}
+#market .market_img img{
+  width: 70%;
+  height: 550px;
+  margin: 0 0 0 80px;
+  border: 15px solid #FFF;
+  border-radius: 5px;
+  box-shadow: -1px 2px 10px 1px rgba(202, 202, 202, 0.993);
+}
+#market .market_img .img_overlay .market_video{
+  left: -30px;
+  bottom: 50px;
+  z-index: 1;
+  position: absolute;
+}
+#market .market_img .img_overlay .market_video img{
+  width: 90%;
+  height: 150px;
+  border: none;
+  box-shadow: none;
+  border-radius: 2px;
+}
+#market .market_head{
+  width: 50%;
+  height: 600px;
+  margin-left: 50px;
+}
+#market .market_head h2{
+  color: #071C1F;
+  font-size: 52px;
+  font-weight: 700;
+  padding: 5px 0 0 10px;
+}
+#market .market_head p{
+  color: #5484A9;
+  font-size: 18px;
+  line-height: 1.5;
+  padding: 10px 20px 20px 10px;
+}
+#market .market_head .market_con{
+  padding-top: 5px;
+  display: flex;
+}
+#market .market_head .market_con .market_icon{
+  width: 50%;
+  height: 60px;
+  margin: 0 10px;
+  background: #FFF;
+  align-items: center;
+  display: flex;
+}
+#market .market_head .market_con .market_icon img{
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+}
+#market .market_head .market_con .market_icon p{
+  padding-left: 15px;
+}
+#market .market_head .market_text{
+  padding-left: 15px;
+  border-left: 3px solid #FF5A3C;
+  margin-top: 26px;
+  background: #FEF5F4;
+  line-height: 1.5;
+  height: 60px;
+  padding-top: 20px;
+}
+#market .market_head .market_btn{
+  padding-top: 30px;
+}
+#market .market_head .market_btn button{
+  padding: 20px 40px;
+  background: #FF5A3C;
+  border: none;
+}
+#market .market_head .market_btn button a{
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 300;
+  color: #FFF;
+}
+#market .market_head .market_btn button:hover{
+  background: #FFF; transition: 0.5s;
+  border: 1px solid #E8E8E8;
+}
+#market .market_head .market_btn button:hover a{
+  color: #000512; transition: 0.3s;
+}
+/* End Marketplace Part CSS */
+/* Start Construction Part CSS */
+#construction{
+  width: 100%;
+  height: 450px;
+  background: #F2F6F7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#construction .construction_img{
+  height: 200px;
+  margin: 0 auto;
+  text-align: center;
+}
+#construction .construction_img img{
+  height: 80px;
+  width: 80px;
+}
+#construction .construction_img h2{
+  font-size: 50px;
+  font-weight: 700;
+  color: #061B1E;
+  text-align: center;
+}
+#construction .construction_img p{
+  font-size: 17px;
+  font-weight: 700;
+  color: #70747B;
+  text-align: center;
+}
+/* End Construction Part CSS */
+/* Start About Us Part CSS */
+#about{
+  width: 90%;
+  height: 650px;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+#about .about_part{
+  width: 100%;
+  height: 650px; 
+  display: flex; 
+}
+#about .about_part .about_head{
+  width: 50%;
+}
+#about .about_part .about_head h6{
+  height: 30px; width: 100px; 
+  border-radius: 20px; display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ffe4dd;
+  color: #FF5A3C;
+  font-size: 16px;
+}
+#about .about_part .about_head h2{
+  color: #071C1F;
+  font-size: 52px;
+  font-weight: 600;
+  padding: 15px 0;
+}
+#about .about_part .about_head p{
+  color: #5C7B8C;
+  font-size: 16px;
+  line-height: 1.5;
+  padding: 10px 30px 20px 0;
+}
+#about .about_part .about_head .about_text{
+  color: #5C7B8C;
+  font-size: 16px;
+  line-height: 1.5;
+  padding: 8px 0;
+}
+#about .about_part .about_head .about_text span{
+  color: #FF5A3C;
+  width: 10%;
+  padding: 0 10px 0 0;
+}
+#about .about_part .about_head .about_con{
+  display: flex;
+  padding: 40px 0;
+}
+#about .about_part .about_head .about_con .about_icon{
+  border-right: 2px solid #E9E9E9;
+  height: 60px;
+}
+#about .about_part .about_head .about_con .b_right{
+  border: none;
+}
+#about .about_part .about_head .about_con .about_icon p{
+  padding: 0 15px;
+}
+#about .about_part .about_head .about_con .about_icon p img{
+  height: 18px;width: 18px;
+}
+#about .about_part .about_head .about_img{
+  display: flex;
+}
+#about .about_part .about_head .about_img img{
+  height: 140px; width: 190px; margin-right: 15px;
+}
+#about .about_part .img_about{
+  width: 50%;
+  height: 650px;
+  padding-left: 38px;
+  display: flex;
+}
+#about .about_part .img_about img{ 
+  height: 640px; width: 270px; 
+}
+#about .about_part .img_about .about_4{ 
+  margin: 0 10px;
+}
+#about .about_part .img_about .about_main{ 
+  width: 50%;
+}
+#about .about_part .img_about .about_main img{ 
+  height: 310px; width: 270px; margin-left: 10px;
+}
+#about .about_part .img_about .about_main .about_6{ 
+  margin-top: 20px;
+}
+/* End About Us Part CSS */
+/* Start Our Services Part CSS */
+#service{
+  width: 100%; height: 570px;
+  padding: 100px 0;
+  background: #F2F6F7;
+}
+#service h6{
+  height: 30px; width: 120px; 
+  border-radius: 20px; display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: #FFEFEC;
+  color: #FF5A3C;
+  font-size: 16px;
+  margin-left: 620px;
+}
+#service h2{
+  text-align: center;
+  color: #071C1F;
+  font-size: 52px;
+  font-weight: 700;
+}
+#service .service_part{
+  width: 90%;
+  margin: 0 auto;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+#service .service_part .service_img{
+  width: 32%;
+  height: 420px;
+  background: #FFF;
+  margin: 0 15px;
+}
+#service .service_part .service_img img{
+  width: 180px; height: 130px;
+  margin: 20px 0 20px 85px;
+}
+#service .service_part .service_img h4{
+  text-align: center;
+  font-size: 30px;
+  color: #071C1F;
+}
+#service .service_part .service_img p{
+  text-align: center;
+  color: #5C7B8C;
+  font-size: 16px;
+  line-height: 1.5;
+  padding: 15px 30px;
+}
+#service .service_part .service_img button{
+  margin: 20px 0 0 138px;
+  border: none; 
+  background: none;
+}
+#service .service_part .service_img button a{
+  text-decoration: none;
+  color: #AAC4C4;
+  font-size: 16px;
+  font-weight: 600;
+}
+#service .service_part .service_img button:hover a{
+  color: #FF5A3C;
+  transition: 0.3s;
+}
+#service .service_part .active button a{
+  color: #FF5A3C;
+}
+#service .service_part .active button:hover a{
+  color: #AAC4C4;
+}
+#service .service_part .service_img:hover{
+  border-bottom: 5px solid #FF5A3C;
+}
+/* End Our Services Part CSS */
+/* 
+  Titu Mollick
+  https://titumallick.com/  
+  Real-Estate Website 
+*/
+/* End Properties Part CSS */
+#properties{
+  width: 100%;
+  height: 750px;
+  padding: 100px 0;
+}
+#properties h6{
+  height: 30px; width: 120px; 
+  border-radius: 20px; display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: #ffe4dd;
+  color: #FF5A3C;
+  font-size: 16px;
+  margin-left: 620px;
+}
+#properties h2{
+  text-align: center;
+  color: #071C1F;
+  font-size: 52px;
+  font-weight: 700;
+}
+#properties .properti_prt{
+  display: flex; justify-content: center;
+  align-items: center; padding-top: 50px;
+}
+#properties .properti_prt .properti_img{
+  width: 30%; height: 630px;
+  box-shadow: 2px 2px 15px 2px rgba(202, 202, 202, 0.596);
+  margin: 0 15px; 
+  position: relative;
+   z-index: 1;
+}
+#properties .properti_prt .properti_img img{
+  height: 300px; width: 100%; 
+}
+#properties .properti_prt .properti_img .proper_btn{
+  top: 16px; right: 20px;
+  position: absolute; z-index: 0;
+}
+#properties .properti_prt .properti_img .proper_btn button{
+  padding: 10px 20px;
+  background: #77C720;
+  border: none;
+}
+#properties .properti_prt .properti_img .proper_btn button:hover{
+  background: #FF5A3C;
+}
+#properties .properti_prt .properti_img .proper_btn button a{
+  text-decoration: none;
+  color: #FFF;
+}
+#properties .properti_prt .properti_img .img_tex{
+  top: 250px; left: 50px;
+  position: absolute; z-index: 1; 
+  display: flex; align-items: center;
+}
+#properties .properti_prt .properti_img .img_tex p{
+  color: #FFEFEC;
+}
+#properties .properti_prt .properti_img .img_tex img{
+   height: 30px; width: 65px; 
+   margin-left: 55px; 
+}
+#properties .properti_prt .properties_con{
+  padding: 20px 20px;
+}
+#properties .properti_prt .properties_con h5{
+  font-size: 20px;
+  color: #FF5A3C;
+}
+#properties .properti_prt .properties_con h4{
+  font-size: 24px;
+  color: #041A1D;
+  padding: 10px 0;
+}
+#properties .properti_prt .properties_con p{
+  font-size: 16px;
+  color: #041A1D;
+  padding-right: 5px;
+}
+#properties .properti_prt .proper_con{
+  display: flex; padding: 15px 0;
+  border-bottom: 1px solid #E9E9E9;
+}
+#properties .properti_prt .proper_con .proper_icon{
+  border-right: 2px solid #E9E9E9;
+  height: 60px;
+}
+#properties .properti_prt .proper_con .b_right{
+  border: none;
+}
+#properties .properti_prt .proper_con .proper_icon p{
+  padding: 0 15px;
+}
+#properties .properti_prt .proper_con .proper_icon p img{
+  height: 18px; width: 18px;
+}
+#properties .properti_prt .properti_img .proper_img{
+  display: flex;
+  padding-top: 20px;
+}
+#properties .properti_prt .properti_img .proper_img .proper_name h5{
+  color: #0A2C3D;
+  padding-left: 15px;
+  font-size: 18px;
+}
+#properties .properti_prt .properti_img .proper_img .proper_name p{
+  color: #5484A9;
+   padding-left: 15px;
+}
+#properties .properti_prt .properti_img .proper_img img{
+  height: 35px; width: 35px; 
+  border-radius: 30px;
+  margin-left: 25px;
+}
+#properties .properti_prt .properti_img .proper_img .icon{
+  height: 40px; width: 125px; 
+  border-radius: 1px;
+  padding-left: 35px;
+}
+/* End Properties Part CSS */
+/* Start Apartments Plan Part CSS */
+#plan{
+  width: 90%;height: 750px;
+  margin: 0 auto;
+  padding: 50px 0 100px 0;
+}
+#plan h6{
+  height: 30px; width: 160px; 
+  border-radius: 20px; display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: #ffe4dd;
+  color: #FF5A3C;
+  font-size: 16px;
+  margin-left: 540px;
+}
+#plan h2{
+  text-align: center;
+  color: #071C1F;
+  font-size: 52px;
+  font-weight: 700;
+}
+#plan .plan_menu{
+  padding-top: 50px;
+  text-align: center;
+  color: #071C1F;
+  display: flex; 
+  justify-content: center;
+}
+#plan .plan_menu a{
+  font-size: 18px;
+  font-weight: 600;
+  color: #152A2E;
+  text-decoration: none;
+  margin: 0 20px;
+}
+#plan .plan_menu a:hover{
+  color: #FF5A3C;
+  text-decoration: underline;
+}
+#plan .plan_menu .active{
+  color: #FF5A3C;
+  text-decoration: underline;
+}
+#plan .plan_part{
+  padding-top: 50px;
+  display: flex;
+}
+#plan .plan_part .plan_con{
+  width: 40%;
+  height: 400px;
+  background: #FF5A3C;
+  padding: 50px;
+}
+#plan .plan_part .plan_con h3{
+  font-size: 35px;
+  color: #FFF;
+}
+#plan .plan_part .plan_con p{
+  font-size: 17px;
+  line-height: 1.5;
+  color: #FFF;
+  padding: 10px 10px 10px 0;
+}
+#plan .plan_part .plan_con .apartment_plan{
+  padding: 10px 0;
+}
+#plan .plan_part .plan_img{
+  width: 50%;
+  height: 500px;
+  margin-left: 20px;
+}
+#plan .plan_part .plan_img img{
+  height: 500px;
+  width: 100%;
+}
+/* End Apartments Plan Part CSS */
+/* Start Video Plan Part CSS */
+#video{
+  width: 100%;
+  height: 350px;
+  position: relative;
+  z-index: 1;
+}
+#video img{
+  width: 100%;
+  height: 350px;
+}
+#video .img_overlay .main_video{
+  top: 37%; left: 47%;
+  position: absolute;
+  z-index: 1;
+}
+#video .img_overlay .main_video img{
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+}
+/* End Video Plan Part CSS */
+/* Start Aminities Part CSS */
+#aminities{
+  width: 90%;
+  height: 700px;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+#aminities h6{
+  height: 30px; width: 160px; 
+  border-radius: 20px; display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: #ffe4dd;
+  color: #FF5A3C;
+  font-size: 16px;
+  margin-left: 530px;
+}
+#aminities h2{
+  text-align: center;
+  color: #071C1F;
+  font-size: 52px;
+  font-weight: 700;
+}
+#aminities .aminities_part{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#aminities .aminities_part .aminities_icon{
+  width: 24%;
+  height: 250px;
+  margin: 0 10px;
+  box-shadow: 2px 2px 15px 2px rgba(202, 202, 202, 0.808);
+}
+#aminities .aminities_part .aminities_icon img{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin: 40px 0 0 90px;
+}
+#aminities .aminities_part .aminities_icon h5{
+  text-align: center;
+  font-size: 25px;
+  color: #0A2832;
+  padding: 25px 0;
+}
+#aminities .aminities_part .aminities_icon p{
+  text-align: center;
+  font-size: 20px;
+  color: #0A2832;
+  border-radius: 30px;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 114px;
+  background: #FFF;
+  box-shadow: 2px 2px 15px 2px rgba(202, 202, 202, 0.596);
+}
+/* End Aminities Part CSS */
+/* Start Our Testimonial Part CSS */
+#testimonial{
+  width: 100%;
+  height: 600px;
+}
+#testimonial .testimonial_head{
+  width: 100%;
+  height: 200px;
+  background: #F8F7FC;
+  padding: 100px 0; 
+}
+#testimonial .testimonial_head h6{
+  height: 30px; width: 150px; 
+  border-radius: 20px; display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: #ffe4dd;
+  color: #FF5A3C;
+  font-size: 16px;
+  margin-left: 610px;
+}
+#testimonial .testimonial_head h2{
+  text-align: center;
+  color: #071C1F;
+  font-size: 52px;
+  font-weight: 700;
+}
+#testimonial .testimonial_part{
+  width: 90%;
+  height: 400px;
+  margin: 0 auto;
+  display: flex;
+  margin-top: -170px;
+}
+#testimonial .testimonial_part .testimonial_con{
+  width: 30%;
+  height: 315px;
+  margin: 0 15px;
+  background: #FFF;
+  position: relative;
+  border-radius: 10px; 
+  box-shadow: 1px 1px 15px 1px rgba(202, 202, 202, 0.9);
+}
+#testimonial .testimonial_part .testimonial_con .testimonial_icon{
+  display: flex; 
+}
+#testimonial .testimonial_part .testimonial_con .testimonial_icon img{
+  height: 35px; width: 35px; 
+  position: absolute; 
+  top: 23px; left: 28px;
+}
+#testimonial .testimonial_part .testimonial_con p{
+  text-align: left;
+  font-size: 17px;
+  line-height: 1.5;
+  color: #84959D;
+  padding: 30px;
+}
+#testimonial .testimonial_part .testimonial_con .testimonial_img{
+  display: flex; padding-left: 30px;
+}
+#testimonial .testimonial_part .testimonial_con .testimonial_img img{
+  height: 60px;width: 60px;
+  border-radius: 30px;
+}
+#testimonial .testimonial_part .testimonial_con .testimonial_img .testimonial_name h5{
+  padding: 10px 0 0 15px;
+  font-size: 18px;
+  color: #02181B;
+}
+#testimonial .testimonial_part .testimonial_con .testimonial_img .testimonial_name p{
+  padding: 0 0 0 15px;
+  font-size: 13px;
+}
+/* End Our Testimonial Part CSS */
+/* Start News & Blog Part CSS */
+#blog{
+  width: 90%;
+  height: 720px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+#blog h6{
+  height: 30px; width: 150px; 
+  border-radius: 20px; display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: #ffe4dd;
+  color: #FF5A3C;
+  font-size: 16px;
+  margin-left: 535px;
+}
+#blog h2{
+  text-align: center;
+  color: #071C1F;
+  font-size: 52px;
+  font-weight: 700;
+  padding: 10px 0;
+}
+#blog .blog_con{
+  padding: 50px 0; display: flex;
+}
+#blog .blog_con .blog_img{
+  width: 32%;
+  height: 460px;
+  background: #FFF;
+  margin: 0 15px;
+  box-shadow: -2px 3px 15px -2px rgb(202, 202, 202);
+}
+#blog .blog_con .blog_img img{
+  width: 100%;
+  height: 250px;
+}
+#blog .blog_con .blog_img .blog_icon{
+  display: flex; 
+  padding: 25px 30px 5px 30px;
+}
+#blog .blog_con .blog_img .blog_icon p{
+  color: #5484A9; padding: 0 15px;
+  font-size: 16px;
+}
+#blog .blog_con .blog_img h4{
+  color: #071C1F; padding: 15px 35px;
+  font-size: 26px;
+}
+#blog .blog_con .blog_img hr{
+  background: #071C1F; width: 82%;
+  margin: 0 auto;
+}
+#blog .blog_con .blog_img .blog_btn{
+  display: flex; padding: 20px 30px;
+}
+#blog .blog_con .blog_img .blog_btn button{
+  margin-left: 130px;background: none;
+  border: none;
+}
+#blog .blog_con .blog_img .blog_btn button a{
+  text-decoration: none;
+  font-size: 15px;
+  color: #FF5A3C;
+}
+/* End News & Blog Part CSS */
+/* Start Dream Button Part CSS */
+#dream{
+  width: 100%;
+  height: 200px;
+  margin-bottom: -100px;
+  z-index: 1; position: relative;
+}
+#dream .dream_part{
+  width: 90%;
+  height: 200px;
+  margin: 0 auto;
+  background: #FF5A3C;
+  display: flex; justify-content: center;
+  align-items: center;
+}
+#dream .dream_part .dream_con{
+  padding-right: 200px;
+}
+#dream .dream_part .dream_con h2{
+  color: #FFF;
+  font-size: 52px;
+  font-weight: 700;
+  padding: 10px 0;
+}
+#dream .dream_part .dream_con p{
+  color: #FFF;
+  font-size: 17px;
+  padding: 10px 0;
+}
+#dream .dream_part button{
+  padding: 20px 40px;
+  background: #FFF;
+  border: none;
+  box-shadow: 1px 1px 15px 1px rgba(0, 0, 0, 0.3);
+}
+#dream .dream_part button a{
+  text-decoration: none;
+  font-size: 18px;
+  color: #000000;
+}
+#dream .dream_part button:hover{
+  background: #FF5A3C;
+  border: 1px solid #E8E8E8;
+  transition: 0.3s;
+}
+#dream .dream_part button:hover a{
+  color: #FFF;
+}
+/* End Dream Button Part CSS */
+/* Start Footer Part CSS */
+#footer{
+  width: 100%;
+  height: 650px;
+  background: #171B2A;
+  position: relative;
+}
+#footer .footer_con{
+  padding: 200px 0 50px 0;
+  display: flex; justify-content: center; 
+  align-items: center;
+}
+#footer .footer_con .footer_logo,
+#footer .footer_con .footer_search{
+  width: 24%; 
+  height: 350px;
+  margin: 0 15px;
+}
+#footer .footer_con .footer_logo img{
+  height: 50px;width: 200px;
+}
+#footer .footer_con .footer_logo p{
+  padding-left: 15px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #FFFFF5;
+}
+#footer .footer_con .footer_logo .location{
+  padding: 15px;
+}
+#footer .footer_con .footer_logo .location p{
+  padding: 0px;
+}
+#footer .footer_con .footer_logo .sosal{
+  height: 35px; width: 120px;
+  margin-left: 20px;
+}
+/* Footer 2 */
+#footer .footer_con .footer_head{
+  width: 16%; 
+  height: 350px; 
+  margin: 0 10px;
+}
+#footer .footer_con .footer_search h3,
+#footer .footer_con .footer_head h3{
+  color: #FFF;
+  font-size: 30px;
+  font-weight: 600;
+}
+#footer .footer_con .footer_head .footer_menu{
+  padding-top: 15px;
+}
+#footer .footer_con .footer_head .footer_menu a{
+  color: #FFF;
+  font-size: 16px;
+  text-decoration: none;
+  line-height: 2;
+}
+/* Footer 3 */
+#footer .footer_con .footer_search p{
+  padding-top: 15px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #FFFFF5;
+}
+#footer .footer_con .footer_search form{
+  padding-top: 25px; display: flex;
+}
+#footer .footer_con .footer_search form .email{
+  padding: 20px 30px; border: none;
+}
+#footer .footer_con .footer_search form .btn{
+  padding: 20px 10px; border: none;
+  background: #FF5A3C;
+}
+#footer .footer_con .footer_search h4{
+  padding: 25px 0px 15px; 
+  font-size: 22px;
+  font-weight: 600;
+  color: #FFF;
+}
+#footer .footer_con .footer_search img{
+  height: 30px; width: 280px;
+}
+#footer .top{
+  background: #AAC4C4;
+  color: #E9E9E9;
+  text-decoration: none;
+  font-size: 25px;
+  padding: 4px 13px;
+  position: absolute;
+  bottom: 45px; right: 30px;
+}
+/* Start CopyRight Part CSS */
+#footer .copyright{
+  width: 100%; height: 60px;
+  background: #282B38;
+  display: flex; 
+  align-items: center;
+}
+#footer .copyright p{
+  color: #FFF;
+  font-size: 16px;
+  padding-left: 30px;
+}
+#footer .copyright .copyright_link{
+  padding-left: 690px;
+}
+#footer .copyright .copyright_link a{
+  text-decoration: none;
+  color: #FFF; margin: 0 10px;
+}
+/* End Footer Part CSS */
+/* 
+  Titu Mollick
+  https://titumallick.com/  
+  Real-Estate Website 
+*/
